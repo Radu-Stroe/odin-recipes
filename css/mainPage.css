@@ -1,0 +1,38 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-family: 'Garamond', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(243, 243, 237);
+}
+
+#mainImage img {
+    margin-top: 40px;
+    border-radius: 2%;
+}
+
+#recipeList {
+    display: inline-block;
+    margin-top: 40px;
+    width: 34%;
+    
+    
+}
+
+#recipeList div {
+    height: 200px;
+    padding: 10px 0 10px 20px;
+    font-size: 30px;
+    border-radius: 2%;
+    background-color: rgb(243, 243, 237);
+    text-align: left;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(77, 134, 23);
+}
